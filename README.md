@@ -27,8 +27,9 @@ A example for read JT file.
 
 
 ## Change Log
-- Add prefix Dx to all types of interface Header file
-- fix the Move-to-Front decodec problem in JT 10 version. 
+- 2026/09/04 Change the dependencies on zlib.dll and liblzma.dll to internal static linking, so that no external DLLs are required.
+- 2023/06/15 Add prefix Dx to all types of interface Header file
+- 2023/06/15 fix the Move-to-Front decodec problem in JT 10 version. 
 
 
 ### TODO

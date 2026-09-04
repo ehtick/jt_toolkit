@@ -35,9 +35,9 @@ OSG_DIR 变量有定义。
 
 
 ## Change Log
-- 将接口头文件各类，加前缀 Dx，目的是为了加大与 JtOpen 头文件的区分度
-- 解决 JT10 版本里边的 Move-to-Front 解码问题
-- 修复读取某些JT文件时的错误问题
+- 2026/09/04 在 libdximpjt 里改为静态链接 zlib 和 liblzma，从而不再依赖 zlib.dll and liblzma.dll
+- 2023/06/15 将接口头文件各类，加前缀 Dx，目的是为了加大与 JtOpen 头文件的区分度
+- 2023/06/15 解决 JT10 版本里边的 Move-to-Front 解码问题
 
 
 ### TODO
